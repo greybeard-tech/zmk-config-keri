@@ -46,17 +46,17 @@
         { "label":    "Esc", "row": 3, "col":  9, "x":    11, "y": 2.985 },
         { "label":    "Esc", "row": 3, "col": 10, "x":    12, "y": 3.110 },
     
-        { "label":    "GUI", "row": 4, "col":  3, "x":     4, "y":  3.500 },
-        { "label":    "LWR", "row": 4, "col":  4, "x":     5, "y":  3.500 },
-        { "label":    "SPC", "row": 4, "col":  5, "x":     6, "y":  4.000 },
-        { "label":    "ENT", "row": 4, "col":  7, "x":     8, "y":  4.000 },
-        { "label":    "RSE", "row": 4, "col":  8, "x":     9, "y":  3.500 },
-        { "label":    "ALT", "row": 4, "col":  9, "x":    10, "y":  3.500 },
+        { "label":    "GUI", "row": 4, "col":  3, "x":     4, "y":  3.500, "r":  25 },
+        { "label":    "LWR", "row": 4, "col":  4, "x":     5, "y":  3.500, "r":  25 },
+        { "label":    "SPC", "row": 4, "col":  5, "x":     6, "y":  4.000, "r":  25 },
+        { "label":    "ENT", "row": 4, "col":  7, "x":     8, "y":  4.000, "r": -25 },
+        { "label":    "RSE", "row": 4, "col":  8, "x":     9, "y":  3.500, "r": -25 },
+        { "label":    "ALT", "row": 4, "col":  9, "x":    10, "y":  3.500, "r": -25 },
 
-        { "label":   "Ctrl", "row": 5, "col": 4, "x":      5, "y":  4.500, "r":  15 },
-        { "label": "LShift", "row": 5, "col": 5, "x":      6, "y":  5.000, "r":  15 },
-        { "label":    "Esc", "row": 5, "col": 7, "x":      8, "y":  5.000, "r":  15 },
-        { "label":    "Esc", "row": 5, "col": 8, "x":      9, "y":  4.500, "r":  15 }
+        { "label":   "Ctrl", "row": 5, "col": 4, "x":      5, "y":  4.500, "r":  25 },
+        { "label": "LShift", "row": 5, "col": 5, "x":      6, "y":  5.000, "r":  25 },
+        { "label":    "Esc", "row": 5, "col": 7, "x":      8, "y":  5.000, "r": -25 },
+        { "label":    "Esc", "row": 5, "col": 8, "x":      9, "y":  4.500, "r": -25 }
       ]
     }
   }
