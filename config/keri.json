@@ -53,10 +53,10 @@
         { "label":    "RSE", "row": 4, "col":  8, "x":     9, "y":  3.500 },
         { "label":    "ALT", "row": 4, "col":  9, "x":    10, "y":  3.500 },
 
-        { "label":   "Ctrl", "row": 5, "col": 4, "x":      5, "y":  4.500 },
-        { "label": "LShift", "row": 5, "col": 5, "x":      6, "y":  5.000 },
-        { "label":    "Esc", "row": 5, "col": 7, "x":      8, "y":  5.000 },
-        { "label":    "Esc", "row": 5, "col": 8, "x":      9, "y":  4.500 }
+        { "label":   "Ctrl", "row": 5, "col": 4, "x":      5, "y":  4.500, "r":  15 },
+        { "label": "LShift", "row": 5, "col": 5, "x":      6, "y":  5.000, "r":  15 },
+        { "label":    "Esc", "row": 5, "col": 7, "x":      8, "y":  5.000, "r":  15 },
+        { "label":    "Esc", "row": 5, "col": 8, "x":      9, "y":  4.500, "r":  15 }
       ]
     }
   }
