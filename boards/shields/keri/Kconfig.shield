@@ -1,0 +1,12 @@
+
+menuconfig SHIELD_KERI
+    bool "Keri (both halves)"
+    depends on ZMK_KEYBOARD
+
+config SHIELD_KERI_LEFT
+    bool "Keri (left)"
+    select ZMK_SPLIT
+
+config SHIELD_KERI_RIGHT
+    bool "Keri (right)"
+    select ZMK_SPLIT
