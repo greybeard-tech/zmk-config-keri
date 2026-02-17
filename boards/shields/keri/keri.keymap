@@ -56,9 +56,6 @@
                                                &kp LCTRL &kp ENTER &mo LOWER      &mo RAISE &kp SPACE &kp LSHIFT  
                                                          &mo ADJUST &mo layer_4   &kp DEL   &kp TAB 
             >;
-        };    
-            
-            bindings-tri-layer = <LOWER RAISE>;
-        };
-    };
+        };      
+     };
 };
