@@ -11,7 +11,7 @@
         debounce-press-ms = <5>;
         debounce-release-ms = <5>;
 
-        diode-direction = "COL2ROW"; // TODO: set to actual
+        diode-direction = "col2row"; // TODO: set to actual
 
         row-gpios = <
             &pro_micro 6  GPIO_ACTIVE_LOW  /* R0 */
