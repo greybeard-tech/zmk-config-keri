@@ -14,20 +14,20 @@
         diode-direction = "COL2ROW"; // TODO: set to actual
 
         row-gpios = <
-            &pro_micro_100  GPIO_ACTIVE_LOW  /* R0 */
-            &pro_micro_024  GPIO_ACTIVE_LOW  /* R1 */
-            &pro_micro_022  GPIO_ACTIVE_LOW  /* R2 */
-            &pro_micro_020  GPIO_ACTIVE_LOW  /* R3 (2-key row) */
-            &pro_micro_017  GPIO_ACTIVE_LOW  /* R4 (thumb row) */
+            &pro_micro 6  GPIO_ACTIVE_LOW  /* R0 */
+            &pro_micro 5  GPIO_ACTIVE_LOW  /* R1 */
+            &pro_micro 4  GPIO_ACTIVE_LOW  /* R2 */
+            &pro_micro 3  GPIO_ACTIVE_LOW  /* R3 (2-key row) */
+            &pro_micro 2  GPIO_ACTIVE_LOW  /* R4 (thumb row) */
         >;
 
         col-gpios = <
-            &pro_micro_011  GPIO_ACTIVE_LOW  /* C0 */
-            &pro_micro_104  GPIO_ACTIVE_LOW  /* C1 */
-            &pro_micro_106  GPIO_ACTIVE_LOW  /* C2 */
-            &pro_micro_109 GPIO_ACTIVE_LOW  /* C3 */
-            &pro_micro_110 GPIO_ACTIVE_LOW  /* C4 */
-            &pro_micro_111 GPIO_ACTIVE_LOW  /* C5 */
+            &pro_micro 7  GPIO_ACTIVE_LOW  /* C0 */
+            &pro_micro 8  GPIO_ACTIVE_LOW  /* C1 */
+            &pro_micro 9  GPIO_ACTIVE_LOW  /* C2 */
+            &pro_micro 10 GPIO_ACTIVE_LOW  /* C3 */
+            &pro_micro 16 GPIO_ACTIVE_LOW  /* C4 */
+            &pro_micro 14 GPIO_ACTIVE_LOW  /* C5 */
         >;
     };
 };
